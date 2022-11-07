@@ -1,9 +1,10 @@
-import { View, Text,Image,StyleSheet,ScrollView } from 'react-native'
+import { View, Text,Image,StyleSheet,ScrollView,TouchableOpacity } from 'react-native'
 import React from 'react'
 
-const Coffeelist = () => {
+const Coffeelist = ({navigation}) => {
   return (
    <ScrollView>
+    <TouchableOpacity onPress={()=>navigation.navigate('Singlecoffee')}>
     <View>
       <View style={{margin:30}}>
       <Image style={{height:150,width:'100%',borderTopLeftRadius:20,borderTopRightRadius:20}} source={require('../assets/coffe1.jpg')}/>
@@ -30,6 +31,7 @@ const Coffeelist = () => {
       </View>
       </View>
     </View>
+    </TouchableOpacity>
    </ScrollView>
   )
 }

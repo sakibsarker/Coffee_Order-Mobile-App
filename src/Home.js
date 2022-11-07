@@ -5,10 +5,12 @@ import Coffeelist from '../components/Coffeelist'
 
 const Home = () => {
   return (
-    <View>
-      <Header_title/>
+    <>
+    <Header_title/>
       <Coffeelist/>
-    </View>
+    </>
+      
+    
   )
 }
 

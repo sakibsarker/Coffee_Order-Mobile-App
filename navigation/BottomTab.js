@@ -3,8 +3,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Home from '../src/Home';
 import History from '../src/History';
-import Cart from '../src/Cart';
-import Coffeelist from '../components/Coffeelist';
+import Cart from '../src/Cart'
+import CoffeStack from './CoffeStack';
 const Tab = createBottomTabNavigator();
 const BottomTab = () => {
   return (
@@ -15,14 +15,15 @@ const BottomTab = () => {
           <MaterialCommunityIcons name="coffee-outline" color={color} size={size} />
         ),
       }} />
-        <Tab.Screen name="History" component={History} 
+        <Tab.Screen name="History" component={CoffeStack} 
         options={{
+        headerShown:false,
         tabBarLabel: 'History',
         tabBarIcon: ({ color, size }) => (
           <MaterialCommunityIcons name="history" color={color} size={size} />
         ),
       }} />
-      <Tab.Screen name="Cart" component={Coffeelist}
+      <Tab.Screen name="Cart" component={Cart}
       options={{
         tabBarLabel: 'Cart',
         tabBarIcon: ({ color, size }) => (

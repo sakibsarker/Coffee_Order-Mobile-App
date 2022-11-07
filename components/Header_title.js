@@ -4,7 +4,7 @@ import React from 'react'
 const Header_title = () => {
   return (
     <View>
-        <View style={{marginTop:20,marginLeft:30,marginRight:30}}>
+        <View style={{marginTop:20,marginLeft:30,marginRight:30,marginBottom:10}}>
         <Image style={{height:50,width:50, borderRadius:50,marginBottom:10}} source={require('../assets/sakib.jpg')}/>
     <Text style={{fontSize:35,marginRight:28}}>Good Morning,Sakib!</Text>
         </View>

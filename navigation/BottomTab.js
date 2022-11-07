@@ -11,7 +11,7 @@ const BottomTab = () => {
         <Tab.Screen name="Coffee" component={Home} options={{
         tabBarLabel: 'Coffee',
         tabBarIcon: ({ color, size }) => (
-          <MaterialCommunityIcons name="coffee" color={color} size={size} />
+          <MaterialCommunityIcons name="coffee-outline" color={color} size={size} />
         ),
       }} />
         <Tab.Screen name="History" component={History} 

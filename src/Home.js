@@ -5,7 +5,7 @@ import Coffeelist from '../components/Coffeelist'
 
 const Home = () => {
   return (
-    <View style={{marginLeft:20,marginRight:20}}>
+    <View>
       <Header_title/>
       <Coffeelist/>
     </View>

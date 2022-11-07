@@ -1,11 +1,13 @@
-import { View, Text } from 'react-native'
+import { View, Text,StyleSheet } from 'react-native'
 import React from 'react'
 import Header_title from '../components/Header_title'
+import Coffeelist from '../components/Coffeelist'
 
 const Home = () => {
   return (
-    <View>
+    <View style={{marginLeft:20,marginRight:20}}>
       <Header_title/>
+      <Coffeelist/>
     </View>
   )
 }

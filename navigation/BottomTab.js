@@ -23,7 +23,7 @@ const BottomTab = () => {
       }} />
       <Tab.Screen name="Cart" component={Cart}
       options={{
-        tabBarLabel: 'History',
+        tabBarLabel: 'Cart',
         tabBarIcon: ({ color, size }) => (
           <MaterialCommunityIcons name="cart-variant" color={color} size={size} />
         ),

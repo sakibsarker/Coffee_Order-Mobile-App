@@ -10,7 +10,7 @@ const Single_coffee = () => {
       <Text style={{fontSize:20}}>Chocolate Coffee</Text>
       <Text style={{fontSize:20, fontWeight:'300'}}>50 TK</Text>
       </View>
-      <Button color={'black'} title='BUY NOW'/>
+      <Button color={'black'} title='ORDER NOW'/>
     </View>
     </View>
   )

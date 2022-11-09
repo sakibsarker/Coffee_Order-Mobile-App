@@ -1,9 +1,9 @@
-import { View, Text,Image,StyleSheet,ScrollView,TouchableOpacity,Pressable } from 'react-native'
+import { View, Text,Image,Pressable,ScrollView } from 'react-native'
 import React from 'react'
 
-const Coffeelist = ({navigation}) => {
+const Homecoffeelist = ({navigation}) => {
   return (
-   <ScrollView>
+    <ScrollView>
     <Pressable onPress={()=>navigation.navigate('Singlecoffee')}>
     <View>
       <View style={{margin:30}}>
@@ -36,4 +36,4 @@ const Coffeelist = ({navigation}) => {
   )
 }
 
-export default Coffeelist
+export default Homecoffeelist

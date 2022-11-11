@@ -8,7 +8,6 @@ const HomeStack = () => {
   return (
     <Stack.Navigator>
         <Stack.Screen name='HomeScreen' component={Home} options={{
-        headerShown:false
         }}/>
         <Stack.Screen name='Single' component={Single}/>
     </Stack.Navigator>

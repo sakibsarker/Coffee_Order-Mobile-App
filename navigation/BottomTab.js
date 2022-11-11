@@ -5,6 +5,7 @@ import Octicons from 'react-native-vector-icons/Octicons';
 import History from '../src/History';
 import Profile from '../src/Profile';
 import HomeStack from './HomeStack';
+import Products from '../components/Products';
 
 
 const Tab = createBottomTabNavigator();

@@ -4,14 +4,14 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import Octicons from 'react-native-vector-icons/Octicons';
 import History from '../src/History';
 import Profile from '../src/Profile';
-import Home from '../src/Home';
+import HomeStack from './HomeStack';
 
 
 const Tab = createBottomTabNavigator();
 const BottomTab = () => {
   return (
     <Tab.Navigator>
-        <Tab.Screen name="Home" component={Home} options={{
+        <Tab.Screen name="Home" component={HomeStack} options={{
         headerShown:false,
         tabBarLabel: 'Home',
         tabBarIcon: ({ color, size }) => (

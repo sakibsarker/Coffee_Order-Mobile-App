@@ -2,7 +2,7 @@ import { View, Text,Image,Button } from 'react-native'
 import React, { useState } from 'react'
 import NumericInput from 'react-native-numeric-input'
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-
+import Buttons from '../components/Buttons';
 const Singleproduct = () => {
   const [value,setValue]=useState(0);
   return (
@@ -29,7 +29,7 @@ const Singleproduct = () => {
      
      />
      </View>
-     <Button color={'black'} title='PLEASE ORDER NOW'/>
+     <Buttons text='Order Now'/>
    </View>
    </View>
   )

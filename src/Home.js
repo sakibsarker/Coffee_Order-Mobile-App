@@ -68,7 +68,7 @@ const Home = ({navigation}) => {
     data={DATA}
     renderItem={({item})=>
     <View style={{backgroundColor:'white'}}>
-      <TouchableOpacity onPress={()=>navigation.navigate('Single')}>
+      <TouchableOpacity onPress={()=>navigation.navigate('Singleproduct')}>
       <View style={{marginLeft:30,marginRight:30,marginTop:10}}>
       <Image style={{height:150,width:'100%',borderTopLeftRadius:20,borderTopRightRadius:20}} source={item.picture}/>
       <View style={{backgroundColor:'black',borderBottomLeftRadius:20,borderBottomRightRadius:20}}>

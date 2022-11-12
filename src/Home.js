@@ -13,7 +13,7 @@ import React, { useState } from "react";
 import { FlashList } from "@shopify/flash-list";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import Entypo from "react-native-vector-icons/Entypo";
-import Profile from "./Profile";
+
 
 const Home = ({ navigation }) => {
   const categories = ["All", "Coffee", "Tea", "Pizza"];
@@ -96,7 +96,6 @@ const Home = ({ navigation }) => {
               }}
               source={require("../assets/sakib.jpg")}
             />
-            {/* <Entypo style={{marginTop:10}} name='sound' size={25} color={'red'}/> */}
             <ModelD />
           </View>
 
@@ -153,7 +152,7 @@ const Home = ({ navigation }) => {
     {
       productname: "Chocolate",
       price: "50TK",
-      picture: require("../assets/coffe1.jpg"),
+      picture: require("../assets/coffe2.jpg"),
     },
     {
       productname: "Chocolate",
@@ -165,7 +164,7 @@ const Home = ({ navigation }) => {
   return (
 
     <View>
-    <View style={{width:'100%',height:'100%'}}>
+    <View style={{width:'100%',height:'100%',backgroundColor:'white'}}>
       <Header/>
       <FlashList
     data={DATA}
@@ -187,12 +186,6 @@ const Home = ({ navigation }) => {
     />
     </View>
     </View>
-
-
-    // <View style={{backgroundColor:'white'}}>
-    //     
-    //     <Products navigation={navigation}/>
-    // </View>
   )}
 
 

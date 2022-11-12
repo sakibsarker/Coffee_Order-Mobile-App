@@ -32,8 +32,8 @@ const Singleproduct = () => {
             totalHeight={30}
             iconSize={25}
             step={1}
-            maxValue={15}
-            minValue={0}
+            maxValue={100}
+            minValue={2}
             borderColor={Colors.deepGray}
             rounded
             textColor={Colors.black}

@@ -8,19 +8,17 @@ const Profile = ({navigation}) => {
   return (
     <View style={{backgroundColor:'white'}}>
       <View style={{borderBottomColor:'#f3f3f3',borderBottomWidth:1,alignItems:"center",marginTop:100,marginBottom:50}}>
-      <Image
-              style={{
+      <Image style={{
                 height:110,
                 width:110,
                 borderRadius:100,
                 marginBottom: 10,
                 borderWidth:5,
-                borderColor:'green'
-              }}
-              source={require("../assets/sakib.jpg")}/>
-              <Text style={{fontSize:20,fontWeight:'600'}}>MD Sakib Sarker</Text>
-              <Text>Department of CSE</Text>
-              <Text style={{fontWeight:'800',marginBottom:50}}>43546</Text>
+                borderColor:'black'
+              }} source={require("../assets/sakib.jpg")}/>
+      <Text style={{fontSize:20,fontWeight:'600'}}>MD Sakib Sarker</Text>
+      <Text>Department of CSE</Text>
+      <Text style={{fontWeight:'800',marginBottom:50}}>43546</Text>
       </View>
       <View style={{marginLeft:20,marginBottom:'100%'}}>
         <TouchableOpacity onPress={()=>navigation.navigate('EditProfile')}>

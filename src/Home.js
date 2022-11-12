@@ -165,10 +165,11 @@ const Home = ({ navigation }) => {
   return (
 
     <View>
-      <Header/>
     <View style={{width:'100%',height:'100%'}}>
+      <Header/>
       <FlashList
     data={DATA}
+    showsVerticalScrollIndicator={false}
     renderItem={({item})=>
     <View style={{backgroundColor:'white'}}>
       <TouchableOpacity onPress={()=>navigation.navigate('Singleproduct')}>

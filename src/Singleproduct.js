@@ -6,13 +6,13 @@ import Buttons from "../components/Buttons";
 const Singleproduct = () => {
   const [value, setValue] = useState(0);
   return (
-    <View>
+    <View style={{marginTop:50}}>
       <View style={{ margin: 30 }}>
         <Image
           style={{ width: "100%", height: 300, borderRadius: 50 }}
           source={require("../assets/coffe1.jpg")}
         />
-        <View style={{ alignItems: "center", margin: 50 }}>
+        <View style={{margin: 50,alignItems:'center' }}>
           <Text style={{ fontSize: 20, fontWeight: "600" }}>
             Chocolate Coffee
           </Text>

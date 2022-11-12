@@ -5,6 +5,7 @@ import Octicons from 'react-native-vector-icons/Octicons';
 import History from '../src/History';
 import Profile from '../src/Profile';
 import HomeStack from './HomeStack';
+import ProfileStack from './ProfileStack';
 
 
 
@@ -26,8 +27,9 @@ const BottomTab = () => {
           <MaterialCommunityIcons name="history" color={color} size={size} />
         ),
       }} />
-      <Tab.Screen name="Profile" component={Profile}
+      <Tab.Screen name="Profile" component={ProfileStack}
       options={{
+        headerShown:false,
         tabBarLabel: 'Profile',
         tabBarIcon: ({ color, size }) => (
           <MaterialCommunityIcons name="account-outline" color={color} size={size} />

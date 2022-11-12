@@ -107,9 +107,10 @@ const Home = ({navigation}) => {
   return (
 
     <View>
-      <Header/>
-    <View style={{width:'100%',height:'100%'}}>
+    <View style={{width:'100%',height:'100%',backgroundColor:'white'}}>
+    <Header/>
       <FlashList
+     showsVerticalScrollIndicator={false}
     data={DATA}
     renderItem={({item})=>
     <View style={{backgroundColor:'white'}}>
@@ -128,12 +129,6 @@ const Home = ({navigation}) => {
     />
     </View>
     </View>
-
-
-    // <View style={{backgroundColor:'white'}}>
-    //     
-    //     <Products navigation={navigation}/>
-    // </View>
   )}
 
 

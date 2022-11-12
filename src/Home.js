@@ -56,7 +56,7 @@ const Home = ({ navigation }) => {
           onPress={() => setModalVisible(true)}
         >
           <Entypo
-            style={{ marginLeft: 230 }}
+            style={{ marginLeft: 270 }}
             name="sound"
             size={25}
             color={"red"}
@@ -159,6 +159,36 @@ const Home = ({ navigation }) => {
       price: "50TK",
       picture: require("../assets/coffe1.jpg"),
     },
+    {
+      productname: "Chocolate",
+      price: "35TK",
+      picture: require("../assets/coffe1.jpg"),
+    },
+    {
+      productname: "Chocolate",
+      price: "50TK",
+      picture: require("../assets/coffe2.jpg"),
+    },
+    {
+      productname: "Chocolate",
+      price: "50TK",
+      picture: require("../assets/coffe2.jpg"),
+    },
+    {
+      productname: "Chocolate",
+      price: "35TK",
+      picture: require("../assets/coffe1.jpg"),
+    },
+    {
+      productname: "Chocolate",
+      price: "50TK",
+      picture: require("../assets/coffe2.jpg"),
+    },
+    {
+      productname: "Chocolate",
+      price: "35TK",
+      picture: require("../assets/coffe1.jpg"),
+    },
   ];
 
   return (
@@ -172,7 +202,7 @@ const Home = ({ navigation }) => {
     renderItem={({item})=>
     <View style={{backgroundColor:'white'}}>
       <TouchableOpacity onPress={()=>navigation.navigate('Singleproduct')}>
-      <View style={{marginLeft:30,marginRight:30,marginTop:10}}>
+      <View style={{marginLeft:30,marginRight:30,marginBottom:20}}>
       <Image style={{height:150,width:'100%',borderTopLeftRadius:20,borderTopRightRadius:20}} source={item.picture}/>
       <View style={{backgroundColor:'black',borderBottomLeftRadius:20,borderBottomRightRadius:20}}>
         <Text style={{color:'white',marginTop:10,marginLeft:20,fontSize:15,fontWeight:'500'}}>{item.productname}</Text>

@@ -14,7 +14,7 @@ const HomeStack = () => {
         <Stack.Screen name='Singleproduct' component={Singleproduct} options={{
           headerShown:false
         }}/>
-        <Stack.Screen name='calling' component={CallingWorker}/>
+        <Stack.Screen name='Staff' component={CallingWorker}/>
     </Stack.Navigator>
   )
 }

@@ -36,7 +36,7 @@ const categories = ["All", "Coffee", "Tea", "Pizza"];
           }}
           source={require("../assets/sakib.jpg")}
         />
-        <TouchableOpacity onPress={()=>navigation.navigate('calling')}>
+        <TouchableOpacity onPress={()=>navigation.navigate('Staff')}>
         <Entypo
             style={{ marginLeft: 250,marginTop:5 }}
             name="sound"

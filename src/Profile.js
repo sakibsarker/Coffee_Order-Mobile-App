@@ -3,6 +3,9 @@ import React from 'react'
 import Feather from 'react-native-vector-icons/Feather'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 import Ionicons from 'react-native-vector-icons/Ionicons'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+
+
 
 const Profile = ({navigation}) => {
   return (
@@ -44,9 +47,9 @@ const Profile = ({navigation}) => {
       </TouchableOpacity>
       <TouchableOpacity onPress={()=>navigation.navigate('Smart')}>
       <View style={{marginLeft:20,marginRight:20,flexDirection:'row',marginBottom:20,
-      marginTop:20,backgroundColor:'#f3f3f3',borderRadius:50}}>
-      <Ionicons name='exit-outline' size={25}/>
-        <Text style={{fontSize:15,marginLeft:20}}>Daffodil Smart App</Text>
+      marginTop:20,borderRadius:50}}>
+      <MaterialCommunityIcons name='lock-smart' size={25}/>
+        <Text style={{fontSize:15,marginLeft:20}}>Smart Menu</Text>
       </View>
       </TouchableOpacity>
       

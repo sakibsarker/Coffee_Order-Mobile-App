@@ -8,14 +8,10 @@ const CallingWorker = () => {
         <View style={{backgroundColor:'green',height:100,width:100,alignItems:'center',borderRadius:50}}>
           <Text style={{color:'white',fontSize:20,marginTop:"33%"}}>Call</Text>
         </View>
-
-        <View style={{backgroundColor:'red',height:100,width:100,alignItems:'center',borderRadius:50,marginLeft:50}}>
-          <Text style={{color:'white',fontSize:20,marginTop:"33%"}}>Cancel</Text>
-        </View>
-        
       </View>
-      <View style={{alignItems:'center',marginTop:100}}>
+      <View style={{alignItems:'center',marginTop:30}}>
         <Text style={{fontSize:30,fontWeight:'500',color:'green'}}>Calling...</Text>
+        <Text style={{fontSize:15,fontWeight:'400',marginTop:10,color:'red'}}>1:50 Minutes Left</Text>
       </View>
     </View>
   )

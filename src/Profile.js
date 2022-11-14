@@ -42,6 +42,13 @@ const Profile = ({navigation}) => {
         <Text style={{fontSize:15,marginLeft:20}}>Logout</Text>
       </View>
       </TouchableOpacity>
+      <TouchableOpacity onPress={()=>navigation.navigate('Smart')}>
+      <View style={{marginLeft:20,marginRight:20,flexDirection:'row',marginBottom:20,
+      marginTop:20,backgroundColor:'#f3f3f3',borderRadius:50}}>
+      <Ionicons name='exit-outline' size={25}/>
+        <Text style={{fontSize:15,marginLeft:20}}>Daffodil Smart App</Text>
+      </View>
+      </TouchableOpacity>
       
       </View>
      

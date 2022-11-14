@@ -3,9 +3,9 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Octicons from 'react-native-vector-icons/Octicons';
 import History from '../src/History';
-import Profile from '../src/Profile';
 import HomeStack from './HomeStack';
 import ProfileStack from './ProfileStack';
+
 
 
 

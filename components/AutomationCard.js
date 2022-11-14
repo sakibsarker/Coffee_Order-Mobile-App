@@ -1,10 +1,9 @@
 import {View,Text,Image,TouchableOpacity} from "react-native";
 import React from "react";
 import { FlashList } from "@shopify/flash-list";
-import Header from "./Header";
-import Headerfood
- from "./Headerfood";
-const ProductsCard = ({navigation}) => {
+import Headerfood from "./Headerfood";
+
+const AutomationCard = ({navigation}) => {
     const DATA = [
         {
           productname: "Normal Coffee",
@@ -56,7 +55,7 @@ const ProductsCard = ({navigation}) => {
   return (
     <View>
     <View style={{width:'100%',height:'100%',backgroundColor:'white'}}>
-      <Header navigation={navigation}/>
+      <Headerfood navigation={navigation}/>
       <FlashList
     data={DATA}
     showsVerticalScrollIndicator={false}
@@ -80,4 +79,4 @@ const ProductsCard = ({navigation}) => {
   )
 }
 
-export default ProductsCard
+export default AutomationCard
